@@ -101,9 +101,9 @@ namespace DiscordDotaBot.commands
         //    await ctx.EditResponseAsync(new DiscordWebhookBuilder().AddEmbed(embed: embedMessage));
         //}
 
-        [SlashCommand("challenge","this slash commands allows parameters")]
+        [SlashCommand("challenge","This slash commands allows parameters")]
         [SlashCommandPermissions(Permissions.Administrator)]
-        public async Task SlashCommandParameters(InteractionContext ctx, [Option("user","user to challenge")] DiscordUser user,
+        public async Task SlashCommandParameters(InteractionContext ctx, [Option("user","ser to challenge")] DiscordUser user,
 
             [Option("gameMode","game mode set by user")] ChallengeMode challengeMode = ChallengeMode.OvOSoloMid)
         {
