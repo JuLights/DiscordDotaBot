@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.4.7" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.4.7" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.4.7" />
+    <PackageReference Include="DSharpPlus.SlashCommands" Version="4.4.7" />
+    <PackageReference Include="SteamKit2" Version="3.0.0-Alpha.1" />
+  </ItemGroup>
+
+</Project>
